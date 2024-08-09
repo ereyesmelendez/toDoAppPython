@@ -7,7 +7,7 @@ if __name__ == "__main__":
         print("\n1. Add a New Task")
         print("\n2. See Saved Task")
         print("\n3. Delete Task")
-        print("\n4. Quit")
+        print("\n4. Quit\n")
 
         choice = input("Enter the number of the choice you would like to do: ")
 

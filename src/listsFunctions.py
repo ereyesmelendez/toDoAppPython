@@ -14,7 +14,8 @@ def listTask():
             print(f"Task {index}. {task}")
 
 def deleteTask():
-    print(tasks)
+    for i, task in enumerate(tasks):
+        print(f"{i}: {task}")
     taskToDelete = int(input("\nWhich task would you like to delete?\n"))
     if taskToDelete >= 0 and taskToDelete < len(tasks):
         tasks.pop(taskToDelete)
